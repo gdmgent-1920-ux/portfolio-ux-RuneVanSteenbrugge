@@ -51,18 +51,18 @@ const data = {
             {
                 "text": "Inspiratieboek",
                 "title": "Mijn PDF met inspiratie",
-                "href": "./assignments/assignment2/documents/a2-inspiration.pdf",
+                "href": "./assignments/assignment2/documents/I_VanSteenbruggeRune_opdracht2.pdf",
                 "target": "_blank"
             },
             {
                 "text": "Adobe XD",
                 "title": "Mijn Adobe XD document",
-                "href": "./assignments/assignment2/documents/a2-visual-designs.xd",
+                "href": "./assignments/assignment2/documents/wireframe-design.xd",
             },
             {
                 "text": "Adobe XD Prototype",
                 "title": "Mijn Adobe XD prototype (share link)",
-                "href": "https://xd.adobe.com/view/e4c35170-a2f7-4c10-753b-ba7c449703ec-92f2/grid",
+                "href": "https://xd.adobe.com/view/25c46849-9359-4126-42e5-f62e73bb5e90-53f5/",
                 "target": "_blank"
             }
         ]
