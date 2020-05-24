@@ -1,0 +1,405 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+    
+}
+.container-fluid{
+    
+    padding-left: 0;
+    padding-right: 0;
+   
+}
+    
+
+
+
+/*              LOGO                 */
+
+.logo{
+        margin-top: 20px ;
+        display: flex;
+        justify-content: center;
+    
+    }
+
+
+
+
+    
+/*                        */
+
+
+/*     NAVIGATIABAR      */
+
+
+li, a{
+    margin: 50px 15px 40px 15px;
+    font-family: 'Segoe UI' ;
+    color: black;
+   font-weight: 300px;
+   text-decoration: none;
+   list-style: none;
+   
+}
+
+.text-center{
+    text-align: center;
+}
+
+li, a:hover{
+    color:#588E41 ;
+    }
+    
+
+/*                        */
+
+
+
+/*       1ste FOTO    */
+
+
+.foto1{
+    margin-top: 0;
+    background-image: url(../images/plants_indoor_plants_pots_137269_2560x1080.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    
+   
+}
+/*                              */
+
+
+/*    ONTSTAAN VAN      */
+
+.ontstaanvancontainer{
+    display: flex;
+    justify-content: center;
+}
+
+.ontstaanvan{
+    font-family:'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    color:  #0c1810;
+    margin: -10px;
+}
+
+.tekstontstaanvan {
+    font-family: 'Lato', sans-serif ;
+    font-weight: lighter;
+    font-size: 20px;
+    color: #4a534e;
+    margin: 20px;
+}
+
+
+.paddingontstaanvan{
+    padding: 80px;
+}
+
+/*     kleurrijk assortiment                */
+
+
+
+.kleurrijk {
+    background-image: url(../images/plants_colorful_leaves_159757_2560x1080.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+.assortiment {
+    background-color: #B0ACAC;
+    opacity: 75%;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-size: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.grijskader{
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   }
+
+.pcolor {
+    color: black ;
+    padding: 10px;
+    
+}
+
+/*   bezoek ons  */
+
+.bezoek{
+    padding: 50px;
+}
+
+.h1lato{
+    font-family:'Lato', sans-serif;
+    font-size: 30px;
+    
+
+}
+
+.plato{
+
+    font-family:'Lato', sans-serif;
+    color: #707070;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+/*             footer             */
+
+
+
+.footer{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+i{
+    font-size: 40px;
+    display: flex;
+    color: white;
+   margin: 30px 10px 20px ;
+   
+    
+   
+    
+}
+
+
+.footer p {
+    display: flex;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 20px;
+    color: white;
+
+    
+
+}
+
+   
+
+
+
+
+.text-center{
+    text-align: center;
+    display: grid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 680px) {
+
+    li, a{
+        margin: 20px 10px 40px 10px;
+        font-family: 'Roboto', sans-serif ;
+        color: black;
+       font-weight: 300px;
+       text-decoration: none;
+       list-style: none;
+      
+       
+       
+       
+    }
+}
+
+
+
+
+@media  (max-width: 768px) {
+
+    .producten ul{
+    
+        display: grid;
+        grid-template-columns:  1fr ;
+        justify-content: center;
+        
+    
+    }
+
+    .navigation{
+        display: none;
+    }
+
+    .navigation.toggled{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #588E41;
+        width: 100%;
+        
+        font-family: 'Segoe UI';
+        color: white;
+        flex-direction: column;
+        flex-wrap: wrap;
+        display: fixed;
+        left: 0;
+        top: 0;
+        
+        
+        
+    }
+
+
+    nav li, a{
+        
+        font-family: 'Segoe UI' ;
+        color: white;
+        text-decoration: none;
+       list-style: none;
+       font-weight: bold;
+       font-size: 15px;
+       margin-bottom: 20px;
+       display: flex;
+       flex-direction: row;
+       
+       
+      
+       
+       
+       
+    }
+    nav li, a:hover{
+        color: rgb(51, 65, 48);
+    }
+
+
+    .filtercontainer{
+        display: none;
+    }
+
+    .filter{
+        display: none;
+    }
+
+    .linkerspace{
+        display: none;
+    }
+
+    .productcontainer{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+    .logocontainer{
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+    }
+
+    .logo{
+        margin-top: 15px ;
+        display: grid;
+        justify-content: center;
+       
+        margin-right: 100px;
+        
+    
+    }
+
+    .nav-toggler {
+        display: inline-block;
+        
+        cursor: pointer;
+        margin-left: 220px;
+        margin-top: 15px;
+        
+        
+        
+      }
+      
+      .bar1, .bar2, .bar3 {
+        width: 35px;
+        height: 7px;
+        background-color: #588E41;
+        margin: 4px 0;
+        transition: 0.4s;
+        
+      }
+      
+      /* Rotate first bar */
+      .nav-toggler.toggled .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+        transform: rotate(-45deg) translate(-9px, 6px) ;
+      }
+      
+      /* Fade out the second bar */
+      .nav-toggler.toggled .bar2 {
+        opacity: 0;
+      }
+      
+      /* Rotate last bar */
+      .nav-toggler.toggled .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+        transform: rotate(45deg) translate(-8px, -8px) ;
+      }
+
+     
+
+}
+
+@media  (max-width: 380px){
+    .nav-toggler {
+        display: inline-block;
+        
+        cursor: pointer;
+        margin-left: 150px;
+        margin-top: 25px;
+        
+        
+        
+      }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -94,7 +94,7 @@ const data = {
         {
             "text": "Website",
             "title": "Mijn website voor opdracht 3",
-            "href": "./assignments/assignment3/website/index.html",
+            "href": "./assignments/assignment3/website/GetPlanted/astartpagina.html",
             "target": "_blank"
         }
     ]
