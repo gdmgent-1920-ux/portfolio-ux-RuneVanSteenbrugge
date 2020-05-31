@@ -80,12 +80,12 @@ p{
 
 .locatie {
     margin-top: 100px;
-    ;
+    
     background-image:url(../images/locatieofficial.jpg);
     background-position: center center;
-    background-size: initial;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 70vh;
+    
     width: 100%;
     box-shadow: inset 0 0 0 1000px rgba(171, 170, 170, 0.411);
 }
@@ -132,9 +132,7 @@ h3{
     
 }
 
-h3:hover{
-    display: none;
-}
+
 
 /*             footer             */
 
@@ -145,6 +143,7 @@ h3:hover{
     display: flex;
     justify-content: center;
     flex-direction: row;
+    width: 100%;
 
 }
 
@@ -329,11 +328,19 @@ i{
 @media (max-width: 830px) {
 
     .locatie {
-        margin-top: 100px;
+        
         background-image:url(../images/locatieklein2.jpg);
         width: 100%;
+        box-shadow: none;
         
     }
+
+
+}
+
+@media (max-width: 520px) {
+
+    
 
 
 }
